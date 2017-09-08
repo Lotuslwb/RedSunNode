@@ -25,7 +25,6 @@ router.get('/file/getImageList', function (req, res, next) {
 
 /*上传图片*/
 router.post('/file/uploadImage', function (req, res, next) {
-    console.log(req);
     var multiparty = require('multiparty');
     var fs = require('fs');
 
